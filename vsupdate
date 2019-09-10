@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ -e DATA/torrent.list ]; then
 	echo "$0: torrent.list already exists!"

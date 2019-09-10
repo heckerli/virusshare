@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # try to find dates on the website via html
 
@@ -35,7 +35,6 @@ ls $DATA/*.torrent | while read filepath
 		echo "==== Torrent Info ===="> $DATA/$tfile
 		transmission-show $filepath >> $DATA/$tfile 
 		echo "==== End of Torrent Info ====">> $DATA/$tfile 
-		sleep 1
 	done
 echo ""
 exit
